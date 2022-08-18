@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14pt;
+  width: 100vw;
+  height: 100vh;
+}
+/* nav bar */
+nav {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+/* bitcoin logo */
+nav img{
+  max-height: 50px;
+  padding: 5px;
+  margin: 5px 20px 15px 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* css for the link (home page link) */
+nav a {
+  color: white;
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+body, html {
+  background-image: url('https://previews.123rf.com/images/siarg/siarg1903/siarg190300023/124778529-cryptocurrency-around-the-world-seamless-background-crypto-currency-symbol.jpg');
+}

@@ -1,0 +1,12 @@
+.container {
+    padding: 2%;
+}
+
+.background {
+    margin: 2%;
+    background-color: rgba(127, 172, 240, 0.814);
+    padding: 1%;
+    border-radius: 6%;
+    margin-inline: 20%;
+
+}

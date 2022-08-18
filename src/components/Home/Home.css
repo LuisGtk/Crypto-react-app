@@ -1,0 +1,39 @@
+h1 {
+    color: white;
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: 800;
+    margin: 5%;
+    margin-top: -2%;
+}
+
+.desc {
+    color: white;
+    font-weight: 400;
+    width: auto;
+
+}
+
+.src {
+    color: white;
+}
+
+p {
+    font-size: x-large;
+}
+
+.homeContainer {
+    background-color: rgba(0, 0, 0, 0.768);
+    margin-inline: 8%;
+
+}
+
+.outline {
+    outline-style: solid;
+    outline-color: rgba(245, 244, 243, 0.663);
+    margin: 3%;
+    width: auto;
+
+}
