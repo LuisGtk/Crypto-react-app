@@ -1,7 +1,12 @@
 .cur,
-.rate{
-    color: white;
+.rate {
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
     background-color: rgb(33, 65, 87);
-    width: 15%;
     margin-left: 42.5%;
+    width: max-content;
+    margin-left: 44%; 
+}
+.rate{
+    margin-left: 40%;
 }
