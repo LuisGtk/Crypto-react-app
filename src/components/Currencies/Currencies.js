@@ -1,11 +1,11 @@
 import './Currencies.css';
 import { useEffect, useState } from "react";
 
+
 export default function Currencies() {
-    // const [search, setSearch] = useState("");
     const [crypto, setCrypto] = useState([]);
-
-
+    const [searchWord, setSearchWord] = useState("");
+    
     useEffect(() => {
         const getCrypto = async () => {
             const apiURL = "https://api.coinstats.app/public/v1/coins?skip=0&limit=100"
@@ -23,10 +23,17 @@ export default function Currencies() {
         getCrypto();
     }, [])
 
-
-    
     return crypto.length > 0 ? (
+
         <section className="container">
+            <input
+                type="text"
+                placeholder="Bitcoin..."
+                onChange={(event) => {
+                    setSearchWord(event.target.value);
+                }}
+            />
+
             {crypto.length &&
                 crypto.map((crypto) => {
                     return (
@@ -42,7 +49,8 @@ export default function Currencies() {
                             </div>
                         </div>
                     )
-                })}
+                }
+                )}
         </section>
     ) : (
         <h1>loading...</h1>

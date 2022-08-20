@@ -21,6 +21,8 @@ function App() {
           <h1>Fiat-Currencies</h1>
         </Link>
       </nav>
+      <div className='search'>
+      </div>
       {/* the main tag contains the paths the applicatuion takes you to after clicking one of the many links */}
       <main>
         {/* container for the route elements */}
